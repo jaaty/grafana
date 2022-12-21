@@ -98,7 +98,7 @@ func (s *Service) List(ctx context.Context, query *dashver.ListDashboardVersions
 		if err != nil {
 			return nil, err
 		}
-		query.DashboardID = q.Id
+		query.DashboardID = q.Result.Id
 	}
 
 	versions, err := s.store.List(ctx, query)
