@@ -159,7 +159,6 @@ class UnConnectedExploreToolbar extends PureComponent<Props> {
           <ToolbarButton
             variant="canvas"
             tooltip={`${isLargerExploreId ? 'Narrow' : 'Widen'} pane`}
-            disabled={isLive}
             onClick={onClickResize}
             icon={
               (exploreId === 'left' && isLargerExploreId) || (exploreId === 'right' && !isLargerExploreId)
