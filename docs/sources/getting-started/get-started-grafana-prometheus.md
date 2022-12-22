@@ -14,6 +14,10 @@ Prometheus is an open source monitoring system for which Grafana provides out-of
 
 {{< docs/shared "getting-started/first-step.md" >}}
 
+#### Prerequisites
+
+You must have already configured Prometheus as a data source in Grafana before starting this guide. Details about how to do this can be found [here]({{< relref "../datasources/prometheus/" >}}).
+
 #### Download Prometheus and node_exporter
 
 Prometheus, like Grafana, can be installed on many different operating systems. Refer to the [Prometheus download page](https://prometheus.io/download/), which lists all stable versions of Prometheus components. Download the following components:
