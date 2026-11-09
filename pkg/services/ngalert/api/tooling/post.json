@@ -4534,7 +4534,6 @@
    "type": "object"
   },
   "gettableAlert": {
-   "description": "GettableAlert gettable alert",
    "properties": {
     "annotations": {
      "$ref": "#/definitions/labelSet"
@@ -4645,7 +4644,6 @@
    "type": "object"
   },
   "gettableSilences": {
-   "description": "GettableSilences gettable silences",
    "items": {
     "$ref": "#/definitions/gettableSilence"
    },
@@ -4833,7 +4831,6 @@
    "type": "object"
   },
   "receiver": {
-   "description": "Receiver receiver",
    "properties": {
     "active": {
      "description": "active",
